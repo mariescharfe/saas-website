@@ -1,5 +1,5 @@
 header {
-  background: #400E0E;
+  background: #400e0e;
 }
 
 header nav {
@@ -26,7 +26,7 @@ header nav a:hover {
 }
 
 .current {
-  background: #6E1818;
+  background: #6e1818;
 }
 
 .logo {
@@ -35,6 +35,30 @@ header nav a:hover {
 
 main {
   font-family: Merriweather, serif;
+}
+
+h1,
+h1 + p {
+  color: #fff;
+  width: 15rem;
+}
+
+.value-proposition {
+  background-color: rgba(5, 5, 5, 0.75);
+  border-radius: 8px;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -15%);
+}
+
+.call-to-action {
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -55%);
+}
+
+.caption {
+  color:#6e1818;
 }
 
 h2 {
@@ -46,7 +70,7 @@ p {
 }
 
 hr {
-  border: 2px solid #6E1818;
+  border: 2px solid #6e1818;
 }
 
 .break {
@@ -93,7 +117,7 @@ ol {
 }
 
 .btn {
-  background-color: #6E1818;
+  background-color: #6e1818;
   border: none;
 }
 
@@ -105,11 +129,11 @@ ol {
 .btn:hover {
   color: #fff;
   text-decoration: none;
-  background: #400E0E;
+  background: #400e0e;
   border: none;
 }
 
-@media only screen and (min-width: 0em) {
+@media only screen and (min-width: 1em) {
 
   footer ul {
     display: none;

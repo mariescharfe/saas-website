@@ -1,0 +1,119 @@
+header {
+  background: #400E0E;
+}
+
+header nav {
+  display: block;
+}
+
+header nav li {
+  text-align: center;
+  width: 100%;
+}
+
+button:focus,
+a:focus {
+  border-color: 0;
+}
+
+header nav a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  width: 100%;
+  transition: 550ms;
+}
+
+header nav a:hover {
+  background-color: #582b2b;
+  transition: 550ms;
+}
+
+.current {
+  background: #6E1818;
+}
+
+.logo {
+  max-width: 5rem;
+}
+
+main {
+  font-family: Merriweather, serif;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+}
+
+p {
+  font-family: Merriweather, serif;
+}
+
+hr {
+  max-width: 75%;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  font-family: Merriweather, serif;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+}
+
+footer ol li {
+  display: inline;
+}
+
+ol {
+  text-align: right;
+  width: 50%;
+}
+
+.social {
+  max-width: 2rem;
+
+}
+
+.social-fb {
+  max-height: 1.5rem;
+}
+
+.btn {
+  background-color: #6E1818;
+  border: none;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #400E0E;
+  border: none;
+}
+
+@media only screen and (min-width: 0em) {
+
+  footer ul {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  footer ul {
+    display: inline;
+  }
+
+}

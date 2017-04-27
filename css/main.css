@@ -65,6 +65,12 @@ h1 {
 
 h2 {
   font-family: Lato, sans-serif;
+  color: #400e0e;
+}
+
+h3 {
+  font-family: Lato, sans-serif;
+  color: #6e1818;
 }
 
 p {
@@ -144,7 +150,7 @@ hr {
 
 @media only screen and (min-width: 1em) {
 
-  footer ul {
+  .foot-align {
     display: none;
   }
 
@@ -182,8 +188,10 @@ hr {
     width: 18%;
   }
 
-  footer ul {
-    display: inline;
+  .foot-align {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
   }
 
   hr {
@@ -199,11 +207,6 @@ hr {
   .banner-content p {
     width: 90%;
     margin: 0 auto;
-  }
-
-  .foot-align {
-    width: 100%;
-    text-align: center;
   }
 
 }

@@ -23,10 +23,12 @@ header nav a {
 header nav a:hover {
   background-color: #582b2b;
   transition: 550ms;
+  border-radius: 5px;
 }
 
 .current {
   background: #6e1818;
+  border-radius: 5px;
 }
 
 .logo {
@@ -41,20 +43,18 @@ h1,
 h1 + p {
   color: #fff;
   width: 15rem;
+  font-family: Lato, sans-serif;
+}
+
+.banner-content {
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
 }
 
 .value-proposition {
   background-color: rgba(5, 5, 5, 0.75);
   border-radius: 8px;
-  left: 50%;
-  top: 15%;
-  transform: translate(-50%, -15%);
-}
-
-.call-to-action {
-  left: 50%;
-  top: 55%;
-  transform: translate(-50%, -55%);
 }
 
 .caption {
@@ -119,6 +119,7 @@ ol {
 .btn {
   background-color: #6e1818;
   border: none;
+  font-family: Lato, sans-serif;
 }
 
 .btn a {
@@ -133,6 +134,15 @@ ol {
   border: none;
 }
 
+.limit {
+  max-width: 25em;
+}
+
+hr {
+  max-width: 25em;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 1em) {
 
   footer ul {
@@ -141,10 +151,74 @@ ol {
 
 }
 
+@media only screen and (min-width: 25em) {
+
+  .limit {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
+
+  header {
+    overflow: hidden;
+  }
+
+  nav ul {
+    text-align: right;
+    width: 80%;
+    float: right;
+  }
+
+ .logo {
+  width: 18%;
+  display: inline-block;
+  float: left;
+ }
+
+  nav ul li {
+    display: inline-block;
+    width: 18%;
+  }
 
   footer ul {
     display: inline;
   }
+
+  hr {
+    display: none;
+  }
+
+  .banner-content {
+    width: 75%;
+    max-width: 30em;
+  }
+
+  .banner-content h1,
+  .banner-content p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .foot-align {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  nav ul {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
 
 }

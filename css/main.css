@@ -55,7 +55,7 @@ h1 {
 }
 
 .value-proposition {
-  background-color: rgba(5, 5, 5, .75);
+  background-color: rgba(5, 5, 5, .6);
   border-radius: 8px;
 }
 
@@ -117,7 +117,7 @@ ol {
 }
 
 .social-fb {
-  max-height: 1.5rem;
+  max-height: 1.75rem;
 }
 
 .btn {
@@ -148,6 +148,21 @@ hr {
   border: 2px solid #6e1818;
 }
 
+.border-section {
+  border: 4px solid #6e1818;
+  border-radius: 8px;
+  padding: .5rem;
+  max-width: 20rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-height {
+  min-height: 14em;
+  background-color: #fff;
+}
+
 @media only screen and (min-width: 1em) {
 
   .foot-align {
@@ -161,6 +176,21 @@ hr {
   .limit {
     text-align: center;
     margin: 0 auto;
+  }
+
+ .bot-buttons-cont {
+   text-align: center;
+ }
+
+  .bot-buttons {
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .img-cutoff {
+    max-height: 650px;
+    overflow: hidden;
   }
 
 }
@@ -209,12 +239,32 @@ hr {
     margin: 0 auto;
   }
 
+  .main-width {
+    max-width: 30em;
+    margin: 0 auto;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   nav ul {
     width: 50%;
+  }
+
+  .main-width {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+
+  .limit {
+    text-align: left;
+    padding-right: 2rem;
+  }
+
+  .no-pad {
+    padding-bottom: 0;
+    margin: 0;
   }
 
 }

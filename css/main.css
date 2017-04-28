@@ -74,6 +74,11 @@ h2 {
   color: #400e0e;
 }
 
+caption {
+  font-family: Lato, sans-serif;
+  color: #400e0e;
+}
+
 h3 {
   font-family: Lato, sans-serif;
   color: #6e1818;
@@ -192,10 +197,6 @@ hr {
   color: #e2e2e2;
 }
 
-.no-show {
-  display: none;
-}
-
 fieldset {
   border: 0;
 }
@@ -209,6 +210,11 @@ input {
 
 .spacegrid div {
   padding-right: .25em;
+}
+
+th,
+td {
+  border: .5px solid #6e1818;
 }
 
 @media only screen and (min-width: 1em) {
@@ -341,6 +347,10 @@ input {
 
   .spacegrid div {
     padding-right: .75em;
+  }
+
+  .premium {
+    padding-left: 0;
   }
 
 }

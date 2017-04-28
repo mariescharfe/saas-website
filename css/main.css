@@ -196,7 +196,7 @@ hr {
   display: none;
 }
 
-fieldset{
+fieldset {
   border: 0;
 }
 
@@ -209,8 +209,6 @@ input {
 
 .spacegrid div {
   padding-right: .25em;
-}
-
 }
 
 @media only screen and (min-width: 1em) {

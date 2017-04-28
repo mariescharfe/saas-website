@@ -186,6 +186,10 @@ hr {
   color: #e2e2e2;
 }
 
+.no-show {
+  display: none;
+}
+
 @media only screen and (min-width: 1em) {
 
   .foot-align {
@@ -202,7 +206,7 @@ hr {
   }
 
   .bot-buttons-cont {
-   text-align: center;
+    text-align: center;
   }
 
   .bot-buttons {

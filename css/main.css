@@ -39,8 +39,14 @@ main {
   font-family: Merriweather, serif;
 }
 
-h1 {
+h1,
+label {
   font-family: Lato, sans-serif;
+  font-weight: bold;
+}
+
+label {
+  color: #6e1818;
 }
 
 .h1-white {
@@ -190,6 +196,23 @@ hr {
   display: none;
 }
 
+fieldset{
+  border: 0;
+}
+
+textarea,
+select,
+input {
+  border-color: #6e1818;
+  border-radius: 5px;
+}
+
+.spacegrid div {
+  padding-right: .25em;
+}
+
+}
+
 @media only screen and (min-width: 1em) {
 
   .foot-align {
@@ -316,6 +339,10 @@ hr {
 
   .border-stretch {
     min-height: 28.25rem;
+  }
+
+  .spacegrid div {
+    padding-right: .75em;
   }
 
 }
